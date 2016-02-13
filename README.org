@@ -1,0 +1,6 @@
+* sap sms
+
+an API for SAP that works over the twitter api
+
+* TODO setup
+
