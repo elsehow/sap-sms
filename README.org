@@ -1,6 +1,8 @@
 * sap sms
 
-an API for SAP that works over the twitter api.
+an API for [[https:/github.com/elsehow/sap][sap]] that works over the twitter api.
+
+the idea is to text a number and have sap print the message out
 
 * setup
 ** installing the server
