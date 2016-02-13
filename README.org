@@ -1,6 +1,27 @@
 * sap sms
 
-an API for SAP that works over the twitter api
+an API for SAP that works over the twitter api.
 
-* TODO setup
+* setup
+** installing the server
 
+to install,
+
+=npm install=
+
+to run,
+
+=npm start=
+
+** setting up twilio
+
+make a number on twilio
+
+go to my number > set url >
+
+enter the url at which your serer is accessible
+
+make sure twilio is making a GET request (*this is important!!*)
+
+* license
+BSD

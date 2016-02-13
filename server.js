@@ -1,7 +1,8 @@
 'use strict'
+
 var app = require('express')()
   , port = 42001
-  , printer_api_key = require('./config.js')
+  , printer_api_key = require('./config.js').printer_key
   , indra_endpoint = 'http://indra.webfactional.com'
   , request = require('request-json')
   , indra_endpoint_client = request.createClient(indra_endpoint)
