@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "forever start -a -m 1 -l sap-sms.log -o out.log -e err.log server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "elsehow",
+  "license": "BSD-2-Clause",
   "dependencies": {
     "express": "^4.13.4",
+    "forever": "^0.15.1",
     "request-json": "^0.5.5"
   }
 }
