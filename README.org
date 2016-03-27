@@ -19,9 +19,9 @@ to run,
 
 make a number on twilio
 
-go to my number > set url >
+go to my number > set url > your url + `/q`
 
-enter the url at which your serer is accessible
+enter the url at which your serer is accessible, with a `/q` on the end
 
 make sure twilio is making a GET request (*this is important!!*)
 
